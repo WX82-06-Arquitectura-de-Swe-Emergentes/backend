@@ -1,0 +1,1 @@
+package com.app.adventurehub.chat.domain.persistence;
