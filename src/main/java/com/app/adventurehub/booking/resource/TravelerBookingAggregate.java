@@ -17,10 +17,7 @@ import lombok.With;
 @AllArgsConstructor
 @NoArgsConstructor
 public class TravelerBookingAggregate {
-	private Long id;
-	private Date date;
-	private BookingStatus status;
-	private Long numberOfPeople;
+	private BookingResource booking;
 	// private UserAggregateResource user;
 	private TripAggregateResource trip;
 }

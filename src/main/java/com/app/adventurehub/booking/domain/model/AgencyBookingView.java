@@ -2,8 +2,8 @@ package com.app.adventurehub.booking.domain.model;
 
 import java.util.List;
 
-import com.app.adventurehub.booking.domain.model.entity.Booking;
-import com.app.adventurehub.trip.domain.model.entity.Trip;
+import com.app.adventurehub.booking.resource.BookingResource;
+import com.app.adventurehub.trip.resource.TripAggregateResource;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -13,6 +13,6 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class AgencyBookingView {
-	Trip trip;
-	List<Booking> bookings;
+	TripAggregateResource trip;
+	List<BookingResource> bookings;
 }

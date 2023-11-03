@@ -1,8 +1,6 @@
 package com.app.adventurehub.trip.resource;
 
 import com.app.adventurehub.trip.TripStatus;
-import com.app.adventurehub.trip.domain.model.entity.Destination;
-import com.app.adventurehub.trip.domain.model.entity.Season;
 import lombok.*;
 
 import java.util.Date;
