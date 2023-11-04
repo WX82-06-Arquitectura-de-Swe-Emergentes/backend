@@ -67,6 +67,7 @@ public class TripMapper implements Serializable {
 				.withStart_date(model.getStart_date())
 				.withEnd_date(model.getEnd_date())
 				.withGroup_size(model.getGroup_size())
+				.withStock(model.getStock())
 				.withCategory(model.getCategory().getName())
 				.withAgency_name(model.getUser().getUsername())
 				.withSeason(seasonMapper.toResource(model.getSeason()))
@@ -114,6 +115,8 @@ public class TripMapper implements Serializable {
 				.withStatus(checkTripStatus(model))
 				.withStart_date(model.getStart_date())
 				.withEnd_date(model.getEnd_date())
+				.withGroup_size(model.getGroup_size())
+				.withStock(model.getStock())
 				.withThumbnail(getTripThumbnail(model))
 				.withAverage_rating(getTripAverageRating(model));
 	}

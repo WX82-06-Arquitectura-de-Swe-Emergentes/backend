@@ -21,6 +21,7 @@ public class TripAggregateResource {
     private Date start_date;
     private Date end_date;
     private String group_size;
+		private Long stock;
     private String category;
     private String agency_name;
     private SeasonResource season;

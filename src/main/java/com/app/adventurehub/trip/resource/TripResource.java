@@ -17,6 +17,8 @@ public class TripResource {
     private Date start_date;
     private Date end_date;
     private Double price;
+		private String group_size;
+		private Long stock;
     private String destination_name;
     private String thumbnail;
     private String average_rating;
